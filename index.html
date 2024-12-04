@@ -93,10 +93,6 @@
                 balloon.style.animationDelay = Math.random() * 4 + 's';
                 balloon.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
 
-                const string = document.createElement('div');
-                string.className = 'string';
-
-                balloon.appendChild(string);
                 container.appendChild(balloon);
             }
         });
